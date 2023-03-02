@@ -1,0 +1,22 @@
+{
+	"strategies": {
+		"1": {
+			"step": "01",
+			"main_title": "Takimi i pare",
+			"title_desc": "Pershkrimi i takimit te pare",
+			"content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven"
+		},
+		"2": {
+			"step": "02",
+			"main_title": "Takimi i dyte",
+			"title_desc": "Pershkrimi i takimit te dyte",
+			"content": "Lorem ipsum dolor testing 2 sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven"
+		},
+		"3": {
+			"step": "03",
+			"main_title": "Takimi i trete",
+			"title_desc": "Pershkrimi i takimit te trete",
+			"content": "Lorem ipsum dolor testing 3 sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven"
+		}
+	}
+}

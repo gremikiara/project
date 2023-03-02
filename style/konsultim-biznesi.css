@@ -1,0 +1,215 @@
+/*Colors*/
+.dark-green {
+	color: #68847d;
+}
+
+.green {
+	color: #4dbb6d;
+}
+
+.darkgreen {
+	color: #052103;
+}
+
+.gray {
+	color: #767b89;
+}
+
+.red {
+	color: red;
+}
+
+.white {
+	color: white;
+}
+
+.black {
+	color: black;
+}
+
+.bg-lightgreen {
+	background-color: #e3fdea;
+}
+
+.bg-lightgray {
+	background-color: #ebebeb;
+}
+
+.bg-green {
+	background-color: #42a866;
+}
+
+.bg-gray {
+	background-color: #767b89;
+}
+
+.bg-white {
+	background-color: white;
+}
+
+/* / Color */
+
+
+/*Radius*/
+
+.radius-xs {
+	border-radius: 5%;
+}
+
+.radius-s {
+	border-radius: 15%;
+}
+
+.radius-m {
+	border-radius: 25%;
+}
+
+.radius-lg {
+	border-radius: 35%;
+}
+
+.radius-xlg {
+	border-radius: 45%;
+}
+
+.circle {
+	border-radius: 100%;
+}
+
+.header {
+	height: 100vh;
+    background-image: url(../img/bg-consulting.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 65%;
+}
+
+.main-nav li {
+	margin-right: 0.5em;
+}
+
+.main-nav li a:hover {
+	color: #4dbb6d;
+}
+
+.arrow-container-left {
+ 	background-image: linear-gradient(90deg, #2d2e2d, #2d2e2d 66%, transparent 50%, transparent 100%);
+}
+
+.arrow-container-right {
+ 	background-image: linear-gradient(270deg, #2d2e2d, #2d2e2d 66%, transparent 50%, transparent 100%);
+}
+
+.about-us-bullets {
+	display: flex;
+	border-radius: 100%;
+	width: 30px;
+	height: 30px;
+	background-color: #e3fdea;
+}
+
+.about-us-bullets::after {
+	content: ">";
+} 
+
+.statistics-grid {
+	display: grid;
+	grid: repeat(2, 1fr) / repeat(2, 1fr);
+}
+
+.statistics-grid .second {
+/*	@todo*/
+}
+
+.expertise-circle-images {
+	height: 6rem;
+	width: 6rem;
+
+}
+
+.expertise-circle-images img {
+	max-width: 60%;
+	max-height: 60%;
+}
+
+.paginator-buttons {
+	width: 10px;
+	height: 10px;
+}
+
+.active-header {
+	color: green;
+	border-color: #767b89;
+	border-left-color: #4dbb6d;
+}
+
+.qa-content {
+	max-height: 10rem;
+	overflow: auto;
+	border-bottom-color: #767b89;
+}
+
+.qa-header span {
+	color: black;
+}
+
+.active {
+	color: #4dbb6d;
+}
+
+.testimonials-image-container {
+	width: 10rem;
+	height: 10rem;
+}
+
+#name-upperline {
+	height: 4px;
+    background-color: black;
+    border: 1px solid;
+}
+
+.our-team-card {
+	height: 25rem;
+}
+
+.our-team-card .share-btn {
+	bottom: 6rem;
+    right: -75%;
+}
+
+.social-media-btn {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+.contact-us-input-container {
+    display: flex;
+    background-color: white;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.contact-us-input-container input,
+.contact-us-input-container textarea  {
+	width: 90%;
+    height: 1.5rem;
+    border: none;
+    outline: none;
+}
+
+.contact-us-input-container textarea {
+	height: 7.5rem;
+	resize: none;
+}
+
+.btn-submit {
+	border-color: inherit;
+}
+
+footer {
+	background-color: #14193b;
+}
+
+.menu-toggle-container {
+	display: none;
+}
